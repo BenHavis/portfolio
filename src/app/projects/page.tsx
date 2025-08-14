@@ -4,6 +4,7 @@ import styles from "./projects.module.css";
 import regenmedImage from "../../../assets/regenmedglobal.png";
 import feedbackui from "../../../assets/feedbackui.png";
 import upin from "../../../assets/upin.png";
+import streetsignal from "../../../assets/streetsignal-preview.png"; // Add this line
 import { FaGithub } from "react-icons/fa";
 
 type Project = {
@@ -30,6 +31,20 @@ const projects: Project[] = [
     link: "https://www.regenmedglobal.com/",
     githubrepo: "https://github.com/RegenMedGlobal/regen-med-global-next",
     imageUrl: regenmedImage.src,
+  },
+  {   title: "StreetSignal",
+    description:
+      "A civic engagement platform empowering communities to report and track local infrastructure issues like potholes, broken streetlights, and graffiti using geolocation and community mapping.",
+    technologies: ["Next.js", "TypeScript", "Supabase", "CSS Modules"],
+    achievements: [
+      "Built a scalable civic reporting system with real-time community mapping.",
+      "Designed an intuitive reporting flow with photo uploads and precise geolocation.",
+      "Created a comprehensive database schema for municipal issue tracking and analytics.",
+      "Developed responsive UI optimized for mobile-first community engagement.",
+    ],
+    link: "https://streetsignal.vercel.app/",
+    githubrepo: "https://github.com/benhavis/streetsignal",
+    imageUrl: streetsignal.src
   },
   {
     title: "Feedback UI",
