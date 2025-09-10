@@ -190,11 +190,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-<<<<<<< HEAD
-/******/ 		__webpack_require__.h = () => ("691257fb75246b16")
-=======
-/******/ 		__webpack_require__.h = () => ("61ee48325e484100")
->>>>>>> nextjs-update
+/******/ 		__webpack_require__.h = () => ("ccd4ef35e0eb382d")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
