@@ -18,20 +18,19 @@ type Project = {
 };
 
 const projects: Project[] = [
-  {
-    title: "RegenMed Global",
-    description:
-      "A platform connecting patients with regenerative medicine doctors. It includes public articles and tools for doctors to manage their profiles.",
-    technologies: ["React", "Next.js", "Supabase"],
-    achievements: [
-      "Built a scalable and responsive platform.",
-      "Integrated real-time profile updates using Supabase.",
-      "Enhanced user engagement through public articles.",
-    ],
-    link: "https://www.regenmedglobal.com/",
-    githubrepo: "https://github.com/RegenMedGlobal/regen-med-global-next",
-    imageUrl: regenmedImage.src,
-  },
+   {
+  title: "Upin",
+  description:
+    "A mobile app for hosting and joining local meetups with real-time geolocation, community features, and ticketing for paid events.",
+  technologies: ["React Native", "Expo", "Supabase", "Stripe", "PostgreSQL"],
+  achievements: [
+    "Implemented a geofencing system to verify user proximity before allowing access to communities.",
+    "Built a full ticketing system with Stripe integration, including QR code generation and payout automation.",
+    "Designed and deployed an event-driven architecture using Supabase Edge Functions and Webhooks.",
+  ],
+  link: "https://www.upin.co/",
+  imageUrl: upin.src, 
+},
   {   title: "StreetSignal",
     description:
       "A civic engagement platform empowering communities to report and track local infrastructure issues like potholes, broken streetlights, and graffiti using geolocation and community mapping.",
@@ -47,6 +46,20 @@ const projects: Project[] = [
     imageUrl: streetsignal.src
   },
   {
+    title: "RegenMed Global",
+    description:
+      "A platform connecting patients with regenerative medicine doctors. It includes public articles and tools for doctors to manage their profiles.",
+    technologies: ["React", "Next.js", "Supabase"],
+    achievements: [
+      "Built a scalable and responsive platform.",
+      "Integrated real-time profile updates using Supabase.",
+      "Enhanced user engagement through public articles.",
+    ],
+    link: "https://www.regenmedglobal.com/",
+    githubrepo: "https://github.com/RegenMedGlobal/regen-med-global-next",
+    imageUrl: regenmedImage.src,
+  },
+  {
     title: "Feedback UI",
     description:
       "A feedback management app that allows users to add, edit, and delete feedback with live preview and custom rating system.",
@@ -60,19 +73,7 @@ const projects: Project[] = [
     githubrepo: "https://github.com/BenHavis/feedback",
     imageUrl: feedbackui.src,
   },
- {
-  title: "Upin",
-  description:
-    "A mobile app for hosting and joining local meetups with real-time geolocation, community features, and ticketing for paid events.",
-  technologies: ["React Native", "Expo", "Supabase", "Stripe", "PostgreSQL"],
-  achievements: [
-    "Implemented a geofencing system to verify user proximity before allowing access to communities.",
-    "Built a full ticketing system with Stripe integration, including QR code generation and payout automation.",
-    "Designed and deployed an event-driven architecture using Supabase Edge Functions and Webhooks.",
-  ],
-  link: "https://apps.apple.com/us/app/upin/id1341978328",
-  imageUrl: upin.src, // Replace with an Upin-specific image if available
-},
+
 
 ];
 
