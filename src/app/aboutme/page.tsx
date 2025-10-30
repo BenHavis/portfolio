@@ -8,14 +8,14 @@ const AboutMe: React.FC = () => {
         <p className={styles.text}>
           Hi! I&apos;m a full-stack developer specializing in building robust web applications 
           with modern tech stacks. My expertise spans frontend development with React, 
-          backend systems with ASP.NET, and database architecture across MSSQL and PostgreSQL platforms.
+          backend systems with Supabase, and database architecture across MSSQL and PostgreSQL platforms.
         </p>
 
         <p className={styles.text}>
           I have taken the lead on designing and developing a mobile app focused on helping users 
-          connect and organize real-world meetups. I oversaw its entire lifecycle from initial concept 
-          to launch, creating user-friendly interfaces, implementing scalable backend systems, and 
-          delivering features that foster meaningful in-person connections.
+connect and organize real-world meetups. I oversaw its entire lifecycle from initial concept 
+to launch, creating user-friendly interfaces, leveraging Supabase to implement scalable 
+backend systems, and delivering features that foster meaningful in-person connections.
         </p>
 
         <p className={styles.text}>
