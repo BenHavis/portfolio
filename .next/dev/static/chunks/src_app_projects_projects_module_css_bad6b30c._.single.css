@@ -1,0 +1,121 @@
+/* [project]/src/app/projects/projects.module.css [app-client] (css) */
+.projects-module__D-cxOq__projectsPage {
+  background-color: #f5f5f5;
+  padding: 40px 16px;
+}
+
+.projects-module__D-cxOq__title {
+  text-align: center;
+  color: #000;
+  margin-top: 2rem;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.projects-module__D-cxOq__projectsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.projects-module__D-cxOq__projectCard {
+  background: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  transition: transform .2s, box-shadow .2s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 16px #0000000f;
+}
+
+.projects-module__D-cxOq__projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px #0000001a;
+}
+
+.projects-module__D-cxOq__projectImage {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.projects-module__D-cxOq__projectContent {
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  display: flex;
+}
+
+.projects-module__D-cxOq__projectTitle {
+  color: #222;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.projects-module__D-cxOq__projectDescription {
+  color: #444;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+
+.projects-module__D-cxOq__subtitle {
+  color: #333;
+  margin-top: 8px;
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+.projects-module__D-cxOq__list {
+  color: #555;
+  margin: 0;
+  padding-left: 18px;
+  font-size: .85rem;
+}
+
+.projects-module__D-cxOq__list li {
+  margin-bottom: 4px;
+  list-style: outside;
+}
+
+.projects-module__D-cxOq__projectLinks {
+  justify-content: flex-start;
+  margin-top: 12px;
+  display: flex;
+}
+
+.projects-module__D-cxOq__projectLink {
+  color: #fff;
+  text-align: center;
+  background-color: #0070f3;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: .85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color .2s;
+}
+
+.projects-module__D-cxOq__projectLink:hover {
+  background-color: #005ec2;
+}
+
+.projects-module__D-cxOq__githubIcon {
+  color: #333;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 10px auto 0;
+  text-decoration: none;
+  transition: color .2s;
+  display: flex;
+}
+
+.projects-module__D-cxOq__githubIcon:hover {
+  color: #000;
+}
+
+/*# sourceMappingURL=src_app_projects_projects_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,19 @@
+/* [project]/src/app/aboutme/aboutme.module.css [app-client] (css) */
+.aboutme-module__oQ5ZZG__container {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 5rem 1rem 3rem;
+}
+
+.aboutme-module__oQ5ZZG__content {
+  flex-direction: column;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.aboutme-module__oQ5ZZG__text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+/*# sourceMappingURL=src_app_aboutme_aboutme_module_css_bad6b30c._.single.css.map*/

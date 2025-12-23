@@ -1,0 +1,67 @@
+/* [project]/src/app/contact/contact.module.css [app-client] (css) */
+.contact-module__swMWYG__contactPage {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.contact-module__swMWYG__title {
+  text-align: center;
+  color: #111;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.contact-module__swMWYG__description {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.contact-module__swMWYG__form {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+}
+
+.contact-module__swMWYG__input, .contact-module__swMWYG__textarea {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 16px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.contact-module__swMWYG__input:focus, .contact-module__swMWYG__textarea:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.contact-module__swMWYG__button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-weight: bold;
+  transition: background-color .2s;
+}
+
+.contact-module__swMWYG__button:hover {
+  background-color: #005ec2;
+}
+
+.contact-module__swMWYG__confirmation {
+  text-align: center;
+  color: green;
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+/*# sourceMappingURL=src_app_contact_contact_module_css_bad6b30c._.single.css.map*/

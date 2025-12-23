@@ -1,0 +1,123 @@
+/* [project]/components/navbar/navbar.module.css [app-client] (css) */
+.navbar-module__6zQ0kG__navbar {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  background: #0a0a0fcc;
+  border-bottom: 1px solid #ffffff1a;
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-module__6zQ0kG__container {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+}
+
+.navbar-module__6zQ0kG__logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.navbar-module__6zQ0kG__logo:hover {
+  color: #6366f1;
+}
+
+.navbar-module__6zQ0kG__links {
+  gap: 2rem;
+  display: flex;
+}
+
+.navbar-module__6zQ0kG__link {
+  color: #a0aec0;
+  padding: .5rem 0;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .3s;
+  position: relative;
+}
+
+.navbar-module__6zQ0kG__link:hover {
+  color: #fff;
+}
+
+.navbar-module__6zQ0kG__link:after {
+  content: "";
+  background: #6366f1;
+  width: 0;
+  height: 2px;
+  transition: width .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar-module__6zQ0kG__link:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar-module__6zQ0kG__links {
+    gap: 1rem;
+  }
+
+  .navbar-module__6zQ0kG__container {
+    padding: 0 1rem;
+  }
+
+  .navbar-module__6zQ0kG__link {
+    font-size: .9rem;
+  }
+}
+
+.navbar-module__6zQ0kG__navSection {
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+}
+
+.navbar-module__6zQ0kG__socialLinks {
+  gap: 1rem;
+  display: flex;
+}
+
+.navbar-module__6zQ0kG__socialLink {
+  color: #a0aec0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  transition: all .3s;
+  display: flex;
+}
+
+.navbar-module__6zQ0kG__socialLink:hover {
+  color: #fff;
+  background: #6366f11a;
+}
+
+@media (max-width: 768px) {
+  .navbar-module__6zQ0kG__navSection {
+    gap: 1rem;
+  }
+
+  .navbar-module__6zQ0kG__socialLink {
+    padding: .25rem;
+  }
+
+  .navbar-module__6zQ0kG__socialLinks svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/*# sourceMappingURL=components_navbar_navbar_module_css_bad6b30c._.single.css.map*/

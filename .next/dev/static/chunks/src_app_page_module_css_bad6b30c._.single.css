@@ -1,0 +1,105 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__main {
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.page-module___8aEwW__backgroundAnimation {
+  z-index: -1;
+  background: radial-gradient(circle at 50% 50%, var(--accent-glow) 0%, transparent 50%);
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+  animation: 10s ease-in-out infinite page-module___8aEwW__pulse;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@keyframes page-module___8aEwW__pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.page-module___8aEwW__hero {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  display: flex;
+}
+
+.page-module___8aEwW__sectionTitle {
+  text-align: center;
+  background: linear-gradient(45deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.page-module___8aEwW__projects, .page-module___8aEwW__experience, .page-module___8aEwW__contact {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  max-width: 1200px;
+  box-shadow: 0 8px 32px var(--glass-shadow);
+  border-radius: 20px;
+  margin: 0 auto 4rem;
+  padding: 6rem 2rem;
+}
+
+.page-module___8aEwW__projectGrid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  display: grid;
+}
+
+.page-module___8aEwW__timeline {
+  padding: 2rem;
+  position: relative;
+}
+
+.page-module___8aEwW__timeline:before {
+  content: "";
+  background: var(--accent-primary);
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page-module___8aEwW__contactInfo {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page-module___8aEwW__sectionTitle {
+    font-size: 2rem;
+  }
+
+  .page-module___8aEwW__projects, .page-module___8aEwW__experience, .page-module___8aEwW__contact {
+    margin: 0 1rem 3rem;
+    padding: 3rem 1rem;
+  }
+
+  .page-module___8aEwW__timeline:before {
+    left: 2rem;
+  }
+}
+
+/*# sourceMappingURL=src_app_page_module_css_bad6b30c._.single.css.map*/

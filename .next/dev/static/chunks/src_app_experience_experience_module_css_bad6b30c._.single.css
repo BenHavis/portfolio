@@ -1,0 +1,60 @@
+/* [project]/src/app/experience/experience.module.css [app-client] (css) */
+.experience-module__2zb5Ba__experiencePage {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.experience-module__2zb5Ba__title {
+  text-align: center;
+  color: #111;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.experience-module__2zb5Ba__card {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  padding: 24px;
+  box-shadow: 0 6px 20px #00000014;
+}
+
+.experience-module__2zb5Ba__position {
+  color: #222;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.experience-module__2zb5Ba__company {
+  color: #666;
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+.experience-module__2zb5Ba__date {
+  color: #888;
+  margin-bottom: 10px;
+  font-size: .9rem;
+}
+
+.experience-module__2zb5Ba__list {
+  color: #444;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.experience-module__2zb5Ba__list li {
+  margin-bottom: 6px;
+  list-style: outside;
+}
+
+.experience-module__2zb5Ba__stack {
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: .9rem;
+}
+
+/*# sourceMappingURL=src_app_experience_experience_module_css_bad6b30c._.single.css.map*/
